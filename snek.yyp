@@ -1,6 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"o_snek","path":"objects/o_snek/o_snek.yy",},"order":2,},
+    {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":2,},
+    {"id":{"name":"s_apple","path":"sprites/s_apple/s_apple.yy",},"order":1,},
+    {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
+    {"id":{"name":"o_apple","path":"objects/o_apple/o_apple.yy",},"order":1,},
+    {"id":{"name":"s_snek","path":"sprites/s_snek/s_snek.yy",},"order":0,},
+    {"id":{"name":"r_game","path":"rooms/r_game/r_game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -25,7 +31,7 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"r_game","path":"rooms/r_game/r_game.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
