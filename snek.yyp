@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"o_snek","path":"objects/o_snek/o_snek.yy",},"order":2,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":2,},
+    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":3,},
     {"id":{"name":"s_apple","path":"sprites/s_apple/s_apple.yy",},"order":1,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":0,},
     {"id":{"name":"o_apple","path":"objects/o_apple/o_apple.yy",},"order":1,},

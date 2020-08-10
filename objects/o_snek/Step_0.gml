@@ -1,13 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 
-number = round(move_timer / 100)
 move_timer += 1
+if (move_timer >= motion * 100)
+	{
+		move_timer = 0	
+	} // reset the move_timer so it doesn't get too high
 
-// Movement Handling
-// x += x_move			Movement was relegated to Alarm[0]
-// y += y_move			Movement was relegated to Alarm[0]
 
+// Player Input
 if (keyboard_check(vk_left) && y_move != 0) {
 	x_move = -motion
 	y_move = 0
